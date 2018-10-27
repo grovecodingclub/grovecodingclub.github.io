@@ -1,1 +1,23 @@
-
+#logo {
+    width: 15%;
+    height: auto;
+}
+#header {
+    border-bottom: 2px solid black;
+}
+#menu {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.menubutton {
+	padding: 10px;
+	padding-right: 25px;
+	margin: 10px;
+	background-color: transparent;
+	border: none;
+	border-right: 1px solid;
+}
+#projects {
+	border: none;
+}
