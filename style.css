@@ -4,6 +4,7 @@
 }
 #header {
     border-bottom: 2px solid black;
+	overflow: hidden;
 }
 #menu {
 	position: absolute;
@@ -20,4 +21,7 @@
 }
 #projects {
 	border: none;
+}
+.topdiv {
+	display: none;
 }
