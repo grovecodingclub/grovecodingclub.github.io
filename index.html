@@ -12,11 +12,14 @@
             </a>
 			<table>
 				<row id="menu">
-                    <button class="menubutton" id="about">About</button>
-					<button class="menubutton" id="members">Members</button>
-					<button class="menubutton" id="projects">Projects</button>
+                    <button class="menubutton" id="about" onclick="show('aboutd')" onblur="hide('aboutd')">About</button>
+					<button class="menubutton" id="members" onclick="show('membersd')" onblur="hide('membersd')">Members</button>
+					<button class="menubutton" id="projects" onclick="show('projectsd')" onblur="hide('projectsd')">Projects</button>
 				</row>
 			</table>
         </div>
+		<div class="topdiv" id="aboutd">sup1</div>
+		<div class="topdiv" id="membersd">sup2</div>
+		<div class="topdiv" id="projectsd">sup3</div>	
     </body>
 </html>
