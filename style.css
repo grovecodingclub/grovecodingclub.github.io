@@ -5,6 +5,8 @@
 #header {
     border-bottom: 2px solid black;
 	overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
 }
 #menu {
 	position: absolute;
@@ -23,5 +25,9 @@
 	border: none;
 }
 .topdiv {
-	display: none;
+	/*display: none;*/
+	border: 2.5px solid black;
+	padding-left: 49%;
+	padding-right: 49%;
+	margin-top: 100px;
 }
