@@ -25,7 +25,7 @@
 	border: none;
 }
 .topdiv {
-	/*display: none;*/
+	display: none;
 	border: 2.5px solid black;
 	padding-left: 49%;
 	padding-right: 49%;
