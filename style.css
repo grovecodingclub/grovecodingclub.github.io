@@ -20,17 +20,38 @@
 	background-color: transparent;
 	border: none;
 	border-right: 1px solid;
+	text-align: center;
+	color: auto;
 }
 #projects {
 	border: none;
 }
-.topdiv {
-	display: none;
+div.topdiv {
+	opacity: 1;
 	border: 2.5px solid black;
 	padding-left: 49%;
 	padding-right: 49%;
 	margin-top: 100px;
+	position: relative;
+	display: none;
 }
-.topdivhead {
+h1.topdiv {
 	font-family: Lato;
+	text-align: center;
+	padding: 0;
+	margin: 0;
 }
+.menubutton:hover{
+		-webkit-animation-name: mbhover;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes mbhover {
+	0% {background-color: #95afd8; height: 35px;width: 70px}
+	25% {background-color: #4C3; height: 50px;width: 100px; left: 0; top: 0;}
+	50% {background-color: #24A; height: 35px;width: 70px bottom: 0;}
+	75% {background-color: #aa3; height: 50px;width: 100px}
+	100% {background-color: #95afd8; height: 35px; width: 70px}
+}
+ 
