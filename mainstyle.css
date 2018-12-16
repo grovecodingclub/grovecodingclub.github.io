@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=B612|Roboto+Condensed|Lato');
+h1 {
+	font-family: Lato;
+}
+p {
+	font-family: "Roboto Condensed";
+}
+li {
+	font-family: B612;
+}
+#logo {
+    width: 15%;
+    height: auto;
+}
+#header {
+    border-bottom: 2px solid black;
+	overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+#menu {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.menubutton {
+	padding: 10px;
+	padding-right: 25px;
+	margin: 10px;
+	background-color: transparent;
+	border: none;
+	border-right: 1px solid;
+	text-align: center;
+	color: auto;
+}
+.menubutton:hover{
+		-webkit-animation-name: mbhover;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+}
+@keyframes mbhover {
+	0% {background-color: #95afd8; height: 35px;width: 70px}
+	25% {background-color: #4C3; height: 50px;width: 100px; left: 0; top: 0;}
+	50% {background-color: #24A; height: 35px;width: 70px bottom: 0;}
+	75% {background-color: #aa3; height: 50px;width: 100px}
+	100% {background-color: #95afd8; height: 35px; width: 70px}
+}
+a.menuba {
+	color: transparent;
+}
