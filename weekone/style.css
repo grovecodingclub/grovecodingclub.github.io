@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+.notes {
+	background-color: #ababab;
+	font-family: "Source Code Pro";
+	display: inline-block;
+	border: 1px solid;
+	color: black;
+}
+h1.notes, h2.notes, h3.notes, h4.notes, h5.notes {
+	font-weight: normal;
+}
