@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=B612|Roboto+Condensed|Lato');
-h1 {
+@import url('https://fonts.googleapis.com/css?family=B612|Roboto+Condensed|Lato|Indie+Flower');
+h1, h2, h3, h4, h5 {
 	font-family: Lato;
 }
 p {
@@ -32,19 +32,51 @@ li {
 	border-right: 1px solid;
 	text-align: center;
 	color: auto;
+	color: white;
+	font-family: "Indie Flower";
+	font-size: 24px
 }
 .menubutton:hover{
-		-webkit-animation-name: mbhover;
-	-webkit-animation-duration: 3s;
-	-webkit-animation-iteration-count: infinite;
+		animation-name: mbhover;
+	animation-duration:  1s;
+	animation-fill-mode: forwards; 
 }
 @keyframes mbhover {
-	0% {background-color: #95afd8; height: 35px;width: 70px}
-	25% {background-color: #4C3; height: 50px;width: 100px; left: 0; top: 0;}
-	50% {background-color: #24A; height: 35px;width: 70px bottom: 0;}
-	75% {background-color: #aa3; height: 50px;width: 100px}
-	100% {background-color: #95afd8; height: 35px; width: 70px}
+	
+	100% {background-color: blue;}
+}
+#projects.menubutton {
+	border: none;
 }
 a.menuba {
 	color: transparent;
+}
+div.content {
+	text-align: center;
+	border-radius: 25px;
+	background-color: beige;
+	padding: 50px;
+	margin-top: 100px;
+position: absolute;
+	left: 10%;
+	right: 10%;
+	margin-bottom: 100px;
+	background-color: black;
+	color: white;
+	
+}
+div.content li {
+	text-align: left;
+	color: white;
+}
+
+div.content a {
+	text-decoration: none;
+}
+
+div#header {
+	background-color: black;
+}
+body {
+	background-color: blue;
 }
