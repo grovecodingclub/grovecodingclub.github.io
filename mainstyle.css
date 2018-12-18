@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=B612|Roboto+Condensed|Lato|Indie+Flower');
 h1, h2, h3, h4, h5 {
 	font-family: Lato;
@@ -79,4 +80,11 @@ div#header {
 }
 body {
 	background-color: blue;
+}
+table {
+	border: blue;
+	margin-top: 25px;
+}
+td.none {
+	border: none;
 }
