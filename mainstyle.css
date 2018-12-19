@@ -14,7 +14,6 @@ li {
     height: auto;
 }
 #header {
-    border-bottom: 2px solid black;
 	overflow: hidden;
 	position: -webkit-sticky; /* Safari */
     position: sticky;
@@ -44,7 +43,7 @@ li {
 }
 @keyframes mbhover {
 	
-	100% {background-color: blue;}
+	100% {background-color: red;} /*christmas*/
 }
 #projects.menubutton {
 	border: none;
@@ -55,15 +54,15 @@ a.menuba {
 div.content {
 	text-align: center;
 	border-radius: 25px;
-	background-color: beige;
+	background-color: green; /*christmas*/
 	padding: 50px;
 	margin-top: 100px;
 position: absolute;
 	left: 10%;
 	right: 10%;
 	margin-bottom: 100px;
-	background-color: black;
 	color: white;
+	border: none;
 	
 }
 div.content li {
@@ -76,13 +75,13 @@ div.content a {
 }
 
 div#header {
-	background-color: black;
+	background-color: green; /*christmas*/
 }
 body {
-	background-color: blue;
+	background-color: red; /*christmas*/
 }
 table {
-	border: blue;
+	border: red; /*christmas*/
 	margin-top: 25px;
 }
 td.none {
