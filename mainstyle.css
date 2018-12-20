@@ -87,3 +87,7 @@ table {
 td.none {
 	border: none;
 }
+.verse {
+	font-weight: normal;
+	font-style: italic;
+}
