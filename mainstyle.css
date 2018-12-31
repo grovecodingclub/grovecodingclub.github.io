@@ -17,6 +17,7 @@ li {
 	overflow: hidden;
 	position: -webkit-sticky; /* Safari */
     position: sticky;
+	overflow: hidden;
 }
 #menu {
 	position: absolute;
@@ -90,4 +91,7 @@ td.none {
 .verse {
 	font-weight: normal;
 	font-style: italic;
+}
+iframe {
+	border: none;
 }
