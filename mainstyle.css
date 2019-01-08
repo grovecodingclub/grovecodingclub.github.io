@@ -44,7 +44,7 @@ li {
 }
 @keyframes mbhover {
 	
-	100% {background-color: red;} /*christmas*/
+	100% {background-color: blue;}
 }
 #projects.menubutton {
 	border: none;
@@ -55,7 +55,7 @@ a.menuba {
 div.content {
 	text-align: center;
 	border-radius: 25px;
-	background-color: green; /*christmas*/
+	background-color: black; 
 	padding: 50px;
 	margin-top: 100px;
 position: absolute;
@@ -76,13 +76,13 @@ div.content a {
 }
 
 div#header {
-	background-color: green; /*christmas*/
+	background-color: black;
 }
 body {
-	background-color: red; /*christmas*/
-}
+	background-color: blue;
+	}
 table {
-	border: red; /*christmas*/
+	border: blue; 
 	margin-top: 25px;
 }
 td.none {
