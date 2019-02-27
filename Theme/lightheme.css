@@ -1,1 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=B612|Roboto+Condensed|Lato|Indie+Flower');
+h1, h2, h3, h4, h5 {
+	font-family: Lato;
+}
+p {
+	font-family: "Roboto Condensed";
+}
+li {
+	font-family: B612;
+}
+#logo {
+    width: 15%;
+    height: auto;
+}
+#header {
+	overflow: hidden;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+	overflow: hidden;
+}
+#menu {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.menubutton {
+	padding: 10px;
+	padding-right: 25px;
+	margin: 10px;
+	background-color: transparent;
+	border: none;
+	border-right: 1px solid;
+	text-align: center;
+	color: auto;
+	color: black;
+	font-family: "Indie Flower";
+	font-size: 24px
+}
+.menubutton:hover{
+		animation-name: mbhover;
+	animation-duration:  1s;
+	animation-fill-mode: forwards; 
+}
+@keyframes mbhover {
+	
+	100% {background-color: white;}
+}
+#projects.menubutton {
+	border: none;
+}
+a.menuba {
+	color: transparent;
+}
+div.content {
+	text-align: center;
+	border-radius: 25px;
+	background-color: gray; 
+	padding: 50px;
+	margin-top: 100px;
+position: absolute;
+	left: 10%;
+	right: 10%;
+	margin-bottom: 100px;
+	color: black;
+	border: none;
+	
+}
+div.content li {
+	text-align: left;
+	color: black;
+}
 
+div.content a {
+	text-decoration: none;
+}
+
+div#header {
+	background-color: gray;
+}
+body {
+	background-color: white;
+	}
+table {
+	border: white; 
+	margin-top: 25px;
+}
+td.none {
+	border: none;
+}
+.verse {
+	font-weight: normal;
+	font-style: italic;
+}
+iframe {
+	border: none;
+}
+button:not(.menubutton) {
+	border: none;
+	background-color: white;
+	color: black;
+	padding: 15px;
+	font-size: 20px;
+	font-family: 'Indie Flower';
+	border-radius: 50px;
+}
